@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+
+  {{ .Content }}
+
+  {{ $test := partial "func/test" . }}
+
+  {{ printf "%#v" $test }}
+
+  {{ range .Pages.ByTitle }}
+    <a href="{{ .RelPermalink }}">{{ .RelPermalink }}</a>
+    <br>
+  {{ end }}
+{{ end }}
