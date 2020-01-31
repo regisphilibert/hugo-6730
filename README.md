@@ -1,12 +1,4 @@
-This is a shameless ripof of @zwbetz-gh's [starter-hugo-debug-site](https://github.com/zwbetz-gh/starter-hugo-debug-site), only a little bit more adapted to one's daily usage.
+## Sample repo for https://github.com/gohugoio/hugo/issues/6730
 
-1. Download repo
-2. Adjust to reproduce issue
-3. Remove hereby walkthrough and leave only information below
-4. Init git/first commit/push etc...
-
----
-
-## Sample repo for {HUGO_ISSUE_URL}
-
-{STEP_TO_REPRODUCE} or {ISSUE_DESC}
+1. `$ hugo mod get github.com/regisphilibert/hugo-6730--module`
+2. `$ hugo`
